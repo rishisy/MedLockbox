@@ -1,0 +1,27 @@
+-- import: fastn
+
+-- fastn.package: fastnui.trizwit.com
+
+-- fastn.dependency: fastn-community.github.io/doc-site as ds
+-- fastn.dependency: fastn-community.github.io/opensans-typography
+-- fastn.dependency: shaheen-senpai.github.io/fastn-cs-tail
+-- fastn.dependency: fastn-community.github.io/code-block as cb
+-- fastn.dependency: shaheen-senpai.github.io/fira-code
+
+
+-- fastn.auto-import: fastnui.trizwit.com/assets
+-- fastn.auto-import: fastnui.trizwit.com/index
+-- fastn.auto-import: fastnui.trizwit.com/lib
+-- fastn.auto-import: fastn-community.github.io/opensans-typography
+-- fastn.auto-import: shaheen-senpai.github.io/fastn-cs-tail
+-- fastn.auto-import: fastn-community.github.io/code-block as cb
+
+
+
+-- fastn.sitemap:
+
+# Home: index.html
+
+- Blog-1: /
+
+- Blog-2: /

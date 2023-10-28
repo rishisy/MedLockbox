@@ -1,5 +1,12 @@
 -- import: fastn
 
+
+
+
+
+;;login
+
+-- fastn.dependency: fastnui.trizwit.com
 -- fastn.package: fastn-community.github.io/misty-gray
 favicon: https://fastn-community.github.io/misty-gray/-/fastn-community.github.io/misty-gray/favicon.svg
 
@@ -24,6 +31,7 @@ exposing: h0, h1, h2, h3, markdown
 -- fastn.auto-import: typo
 
 -- fastn.sitemap:
+
 
 # Home: /index.html
 
@@ -86,8 +94,8 @@ exposing: h0, h1, h2, h3, markdown
   skip: true
 
 
-# Blog: /blog
+# Reports: /blog
 
 # Landing: /landing
-
+# Login: /login
 ## Sample Post: /blog-articles/sample-post/
