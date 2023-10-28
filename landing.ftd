@@ -15,13 +15,19 @@ cta-secondary-link: landing/
 image: $assets.files.assets.hero.jpg
 
 
+
+
+
 "Embrace worry-free healthcare journeys—empower your health by going paperless, where your medical records await online, making every doctor's visit seamless."
 
--- logo-cloud: Trusted by the top companies in this industry
-logo-list: $list-of-logos
+-- logo-cloud: Let's make this paperless & hastlefree
+
 
 The only SaaS business platform that combines CRM, marketing automation &
 commerce.
+
+
+
 
 -- content: Built for the next generation of small business
 
