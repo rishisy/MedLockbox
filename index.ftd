@@ -1146,7 +1146,7 @@ link: $fallback-title.site-url
 -- component footer:
 optional string site-name: $common.site-name
 optional string site-url:
-optional string copyright: Copyright © 2023 - fifthtry.com
+optional string copyright: Copyright © 2023 - MedLockbox.com
 optional body bio:
 integer logo-width: $common.logo-width
 integer logo-height: $common.logo-height

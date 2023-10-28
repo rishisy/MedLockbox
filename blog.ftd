@@ -3,55 +3,359 @@
 -- import: fastn-community.github.io/misty-gray/blog-articles/sample-post 
 
 
--- ds.page: Blog Page
+-- ds.page: 
 site-logo: NULL
 blog: true
-sidebar: true
+full-width: true
+sidebar: false
 
--- ds.featured-post:
-post-data: $sample-post.meta-2
-cta-primary: Button
-cta-primary-url: blog-articles/sample-post/
 
--- ds.posts: Feature blog
-topics: $common.tags
-sub-heading: Recommended Topics
 
-Sed nec pharetra felis, in ultrices neque. Phasellus varius semper tellus, ac imperdiet erat commodo id. Aenean lobortis justo et velit ornare malesuada. 
+-- team: Your Medical Records
+tag: "Digital Vault - Secure Storage for Your Medical Records"
 
--- ds.post-card:
-post-data: $sample-post.meta
+-- team.members:
 
--- ds.post-card:
-post-data: $sample-post.meta
+-- member: Injections
+profile: 25-10-23
+image: $assets.files.assets.report1.jpeg
 
--- ds.post-card:
-post-data: $sample-post.meta
+Gyan Sagar Hospital , Rajpura
 
--- ds.post-card:
-post-data: $sample-post.meta
+-- member: Medicines
+profile: 25-10-23
+image: $assets.files.assets.report2.jpeg
 
--- ds.post-card:
-post-data: $sample-post.meta
+Gyan Sagar Hospital , Rajpura
 
--- ds.post-card:
-post-data: $sample-post.meta
+-- member: X-Rays
+profile: 25-10-23
+image: $assets.files.assets.report3.jpeg
 
--- ds.post-card:
-post-data: $sample-post.meta
+Neelam Hospital , Rajpura
 
--- ds.post-card:
-post-data: $sample-post.meta
 
--- ds.post-card:
-post-data: $sample-post.meta
+-- member: UltraSound Reports
+profile: 25-10-23
+image: $assets.files.assets.report4.jpeg
 
--- ds.post-card:
-post-data: $sample-post.meta
+Neelam Hospital , Rajpura
 
--- ds.post-card:
-post-data: $sample-post.meta
+-- member: C.B.C.
+profile: 25-10-23
+image: $assets.files.assets.report5.jpeg
 
--- end: ds.posts
+Gyan Sagar Hospital , Rajpura
+
+-- member: Dengue
+profile: 25-10-23
+image: $assets.files.assets.report6.jpeg
+
+Gyan Sagar Hospital , Rajpura
+
+-- member: Injections
+profile: 25-10-23
+image: $assets.files.assets.report7.jpeg
+
+Gyan Sagar Hospital , Rajpura
+
+-- member: Liver test
+profile: 25-10-23
+image: $assets.files.assets.report8.jpeg
+
+Gyan Sagar Hospital , Rajpura
+
+-- end: team.members
+
+-- team.body:
+
+Lorem ipsum .... body 
+
+-- end: team
 
 -- end: ds.page
+
+
+
+
+
+
+
+
+
+
+-- component team:
+optional string tag:
+optional caption title:
+optional body body:
+ftd.ui list members:
+
+-- ftd.column:
+
+-- ftd.desktop:
+
+-- team-desktop: $team.title
+tag: $team.tag
+members: $team.members
+
+$team.body
+
+-- end: ftd.desktop
+
+-- ftd.mobile:
+
+-- team-mobile: $team.title
+tag: $team.tag
+members: $team.members
+
+$team.body
+
+-- end: ftd.mobile
+
+-- end: ftd.column
+
+-- end: team
+
+
+
+
+
+
+
+
+
+
+-- component team-desktop:
+optional string tag:
+optional caption title:
+optional body body:
+ftd.ui list members:
+
+-- ftd.column:
+width: fill-container
+align-content: center
+color: $inherited.colors.text-strong
+
+-- ftd.text: $team-desktop.tag
+if: {team-desktop.tag != NULL }
+color: $inherited.colors.custom.ten
+role: $inherited.types.copy-regular
+margin-bottom.px: 16
+
+-- ftd.text: $team-desktop.title
+if: { $team-desktop.title != NULL }
+role: $inherited.types.heading-medium
+text-align: center
+style: regular
+margin-bottom.px: 32
+
+-- ftd.text:
+if: { $team-desktop.body != NULL }
+role: $inherited.types.copy-regular
+margin-bottom.px: 32
+width.fixed.percent: 70
+text-align: center
+
+$team-desktop.body
+
+-- ftd.row:
+width: fill-container
+children: $team-desktop.members
+spacing.fixed.px: 32
+wrap: true
+align-content: center
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: team-desktop
+
+
+
+
+
+
+
+
+
+
+-- component team-mobile:
+optional string tag:
+optional caption title:
+optional body body:
+ftd.ui list members:
+
+-- ftd.column:
+width: fill-container
+align-content: center
+color: $inherited.colors.text-strong
+
+-- ftd.text: $team-mobile.tag
+if: {team-mobile.tag != NULL }
+color: $inherited.colors.custom.one
+role: $inherited.types.copy-large
+margin-bottom.px: 16
+
+-- ftd.text: $team-mobile.title
+if: {team-mobile.title != NULL }
+width: fill-container
+role: $inherited.types.heading-medium
+text-align: center
+style: regular
+margin-bottom.px: 32
+
+-- ftd.text:
+if: { $team-mobile.body != NULL }
+role: $inherited.types.copy-regular
+margin-bottom.px: 32
+
+$team-mobile.body
+
+-- ftd.column:
+width: fill-container
+children: $team-mobile.members
+spacing.fixed.px: 16
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: team-mobile
+
+
+
+
+
+
+
+
+
+
+-- component member:
+string profile:
+caption title:
+body body:
+boolean $hover: false
+ftd.image-src image:
+
+-- ftd.column:
+background.solid: $inherited.colors.background.base
+border-radius.px: 20
+width.fixed.percent: 30
+width if { ftd.device == "mobile" }: fill-container
+border-color: $inherited.colors.border
+border-width.px: 1
+$on-mouse-enter$: $ftd.set-bool($a = $member.hover, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $member.hover, v = false)
+border-color if { member.hover } : $inherited.colors.border-strong
+
+-- ftd.image:
+src: $member.image
+width: fill-container
+max-height.fixed.px: 358
+border-radius.px: 20
+
+-- ftd.text: $member.profile
+background.solid: $inherited.colors.background.step-1
+border-radius.px: 20
+anchor: parent
+top.px: 20
+right.px: 20
+padding-vertical.px: 4
+padding-horizontal.px: 16
+color: $inherited.colors.text-strong
+role: $inherited.types.fine-print
+
+-- ftd.column:
+padding-horizontal.px: 32
+padding-top.px: 34
+padding-bottom.px: 48
+width: fill-container
+spacing.fixed.px: 8
+
+-- ftd.text: $member.title
+role: $inherited.types.heading-small
+color: $inherited.colors.text
+color if { member.hover }: $inherited.colors.text-strong
+border-radius.px: 20
+style: medium
+
+-- ftd.text:
+role: $inherited.types.copy-regular
+color: $inherited.colors.text
+
+$member.body
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: member
+
+
+
+
+
+
+
+-- component member:
+string profile:
+caption title:
+body body:
+boolean $hover: false
+ftd.image-src image:
+
+-- ftd.column:
+background.solid: $inherited.colors.background.base
+border-radius.px: 20
+width.fixed.percent: 30
+width if { ftd.device == "mobile" }: fill-container
+border-color: $inherited.colors.border
+border-width.px: 1
+$on-mouse-enter$: $ftd.set-bool($a = $member.hover, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $member.hover, v = false)
+border-color if { member.hover } : $inherited.colors.border-strong
+
+-- ftd.image:
+src: $member.image
+width: fill-container
+max-height.fixed.px: 358
+border-radius.px: 20
+
+-- ftd.text: $member.profile
+background.solid: $inherited.colors.background.step-1
+border-radius.px: 20
+anchor: parent
+top.px: 20
+right.px: 20
+padding-vertical.px: 4
+padding-horizontal.px: 16
+color: $inherited.colors.text-strong
+role: $inherited.types.fine-print
+
+-- ftd.column:
+padding-horizontal.px: 32
+padding-top.px: 34
+padding-bottom.px: 48
+width: fill-container
+spacing.fixed.px: 8
+
+-- ftd.text: $member.title
+role: $inherited.types.heading-small
+color: $inherited.colors.text
+color if { member.hover }: $inherited.colors.text-strong
+border-radius.px: 20
+style: medium
+
+-- ftd.text:
+role: $inherited.types.copy-regular
+color: $inherited.colors.text
+
+$member.body
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: member

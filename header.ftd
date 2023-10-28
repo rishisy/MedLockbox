@@ -272,7 +272,7 @@ color: $inherited.colors.text-strong
 
 
 -- component header-item:
-caption title:
+caption title: 
 optional ftd.image-src icon:
 optional string link:
 boolean is-active: 
