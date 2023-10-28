@@ -1,0 +1,25 @@
+-- import: fastn
+
+-- fastn.package: fastn-community.github.io/misty-gray-typography
+
+-- fastn.dependency: fifthtry.github.io/package-doc
+
+
+;; replace inter-font package name with font package name you want to create
+;; typography document for:
+
+-- fastn.dependency: fastn-community.github.io/source-code-pro-font
+-- fastn.dependency: fastn-community.github.io/rubik-font
+
+
+
+-- fastn.sitemap:
+
+
+# Home: index.html
+
+- fastn typography: fastn-typography/
+
+
+# GitHub
+  url: https://github.com/fastn-community/misty-gray-typography
