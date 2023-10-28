@@ -1,0 +1,57 @@
+-- import: fastn-community.github.io/misty-gray/assets
+-- import: fastn-community.github.io/misty-gray/common
+-- import: fastn-community.github.io/misty-gray/blog-articles/sample-post 
+
+
+-- ds.page: Blog Page
+site-logo: NULL
+blog: true
+sidebar: true
+
+-- ds.featured-post:
+post-data: $sample-post.meta-2
+cta-primary: Button
+cta-primary-url: blog-articles/sample-post/
+
+-- ds.posts: Feature blog
+topics: $common.tags
+sub-heading: Recommended Topics
+
+Sed nec pharetra felis, in ultrices neque. Phasellus varius semper tellus, ac imperdiet erat commodo id. Aenean lobortis justo et velit ornare malesuada. 
+
+-- ds.post-card:
+post-data: $sample-post.meta
+
+-- ds.post-card:
+post-data: $sample-post.meta
+
+-- ds.post-card:
+post-data: $sample-post.meta
+
+-- ds.post-card:
+post-data: $sample-post.meta
+
+-- ds.post-card:
+post-data: $sample-post.meta
+
+-- ds.post-card:
+post-data: $sample-post.meta
+
+-- ds.post-card:
+post-data: $sample-post.meta
+
+-- ds.post-card:
+post-data: $sample-post.meta
+
+-- ds.post-card:
+post-data: $sample-post.meta
+
+-- ds.post-card:
+post-data: $sample-post.meta
+
+-- ds.post-card:
+post-data: $sample-post.meta
+
+-- end: ds.posts
+
+-- end: ds.page

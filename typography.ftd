@@ -1,0 +1,229 @@
+-- component h0:
+caption title:
+optional body body:
+children inner:
+optional string id:
+
+-- ftd.column:
+width: fill-container
+id if { $h0.id != NULL }: $h0.id
+
+-- ftd.text: $h0.title
+role: $inherited.types.heading-hero
+color: $inherited.colors.text-strong
+margin-bottom.px: 8
+width: fill-container
+border-bottom-width.px: 1
+border-color: $inherited.colors.border
+region: h1
+
+-- markdown:
+if: { h0.body != NULL }
+body: $h0.body
+
+-- ftd.column:
+children: $h0.inner
+width: fill-container
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: h0
+
+
+
+
+
+
+
+
+
+
+
+-- component h1:
+caption title:
+optional body body:
+children inner:
+optional string id:
+
+-- ftd.column:
+id if { $h1.id != NULL }: $h1.id
+width: fill-container
+
+-- ftd.text: $h1.title
+role: $inherited.types.heading-large
+color: $inherited.colors.text-strong
+margin-bottom.px: 18
+width: fill-container
+padding-top.px: 8
+region: h1
+
+-- markdown:
+if: { h1.body != NULL }
+body: $h1.body
+
+-- ftd.column:
+children: $h1.inner
+width: fill-container
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: h1
+
+
+
+
+
+
+
+
+
+
+-- component h2:
+caption title:
+optional body body:
+children inner:
+optional string id:
+
+-- ftd.column:
+id if { $h2.id != NULL }: $h2.id
+width: fill-container
+
+-- ftd.text: $h2.title
+role: $inherited.types.heading-medium
+color: $inherited.colors.text-strong
+margin-bottom.px: 8
+width: fill-container
+padding-top.px: 4
+region: h2
+
+-- markdown:
+if: { h2.body != NULL }
+body: $h2.body
+
+-- ftd.column:
+children: $h2.inner
+width: fill-container
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: h2
+
+
+
+
+
+
+
+
+
+
+-- component h3:
+caption title:
+optional body body:
+children inner:
+optional string id:
+
+-- ftd.column:
+id if { $h3.id != NULL }: $h3.id
+width: fill-container
+margin-top.px: 50
+
+-- ftd.text: $h3.title
+role: $inherited.types.heading-small
+color: $inherited.colors.text-strong
+style: bold
+margin-bottom.px: 16
+width: fill-container
+padding-top.px: 3
+region: h3
+
+-- markdown:
+if: { h3.body != NULL }
+body: $h3.body
+
+-- ftd.column:
+children: $h3.inner
+width: fill-container
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: h3
+
+
+
+
+
+
+
+
+
+
+-- component h4:
+caption title:
+optional body body:
+children inner:
+optional string id:
+
+-- ftd.column:
+id if { $h4.id != NULL }: $h4.id
+width: fill-container
+
+-- ftd.text: $h4.title
+role: $inherited.types.heading-tiny
+color: $inherited.colors.text-strong
+margin-bottom.px: 8
+width: fill-container
+padding-top.px: 1
+region: h4
+
+-- markdown:
+if: { h4.body != NULL }
+body: $h4.body
+
+-- ftd.column:
+children: $h4.inner
+width: fill-container
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: h4
+
+
+
+
+
+
+
+
+
+
+-- component markdown:
+body body:
+optional boolean collapsed:
+optional caption title:
+optional boolean two_columns:
+optional string id:
+
+-- ftd.column:
+width: fill-container
+id if { $markdown.id != NULL }: $markdown.id
+
+-- ftd.text: 
+text: $markdown.body
+role: $inherited.types.copy-regular
+color: $inherited.colors.text
+classes: markdown
+
+-- end: ftd.column
+
+-- end: markdown

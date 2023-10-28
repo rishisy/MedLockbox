@@ -1,0 +1,15 @@
+-- import: fastn-community.github.io/source-code-pro-font/assets as source-code-pro-assets
+-- import: fastn-community.github.io/rubik-font/assets as rubik-assets
+
+
+
+
+
+-- ftd.type heading-large-v2-type:
+line-height.px: 54
+size.px: 36
+letter-spacing.px: 0
+weight: 700
+font-family: $rubik-assets.fonts.Rubik
+
+-- ftd.responsive-type heading-large-v2: $heading-large-v2-type

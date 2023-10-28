@@ -1,0 +1,79 @@
+-- import: fastn-community.github.io/misty-gray/blog-authors/patrica
+-- import: fastn-community.github.io/misty-gray/components
+
+
+-- ds.page: author-bio
+document-title: fastn misty-gray Template. Build Your Own Website with Ease
+document-description: Simple, easy-to-use misty-gray template to build your own documentation website, personal website, or blog. Change colours and typography effortlessly.
+document-image: https://fastn-community.github.io/misty-gray/-/fastn-community.github.io/misty-gray/static/misty-gray-og-image.jpg
+sidebar: true
+
+-- ds.page.right-sidebar:
+
+-- components.sidebar-index:
+
+-- end: ds.page.right-sidebar
+
+-- ds.page.body:
+
+`ds.author-bio` can be used to show blog/article author profile page. 
+ To see it in action - [Click here] blog-authors/patrica/).
+
+-- ds.h2: Example:
+
+-- ds.rendered:
+
+-- ds.rendered.input:
+
+\-- common.author-meta patrica: John Doe
+profile: UX Designer
+bio-url: blog-authors/patrica/
+image: $assets.files.static.avatar.jpg
+company: Company name
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+velit esse.
+
+\-- ds.author-bio: 
+author: $patrica
+
+-- ds.rendered.output:
+
+-- ds.author-bio: 
+author: $patrica.patrica
+
+-- end: ds.rendered.output
+
+-- end: ds.rendered
+
+-- ds.code:
+lang: ftd
+
+\-- ds.author-bio: 
+author: $patrica
+
+-- ds.h3: Properties of `author-bio` component
+
+- **author** - `type: record` use `common.author-meta` record to create author
+    details as shown in below code snippet. 
+    To see it in action - [Click here](blog-authors/patrica/).
+
+-- ds.code:
+lang: ftd
+
+\-- common.author-meta patrica: John Doe
+profile: UX Designer
+bio-url: blog-authors/patrica/
+image: $assets.files.static.avatar.jpg
+company: Company name
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+velit esse. 
+
+-- end: ds.page

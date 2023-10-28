@@ -1,0 +1,55 @@
+
+
+-- ds.page: Adding Image
+site-logo: NULL
+sidebar: true
+
+-- ds.page.right-sidebar:
+
+-- ds.link-group: How to add image?
+cta: image/#how-to-add-image
+
+-- end: ds.page.right-sidebar
+
+-- ds.page.body:
+
+In this section, we will learn about adding images inside the `page` of your `fastn`
+web site.
+
+-- ds.h2: How to add image?
+id: how-to-add-image
+
+To add an image inside your `page` component just use `ds.image` as shown below:
+
+-- ds.code:
+lang: ftd
+
+\-- ds.image: Add image caption here
+link: <add link>
+src: <add image path here>
+alignment: center
+width: fill-container
+
+-- ds.rendered: Example:
+
+-- ds.rendered.input:
+
+\-- ds.image: This is image caption
+link: https://fastn.com
+src: https://fastn.com/-/fastn.com/images/github-pages.png
+
+This is addition body content for above image
+
+-- ds.rendered.output:
+
+-- ds.image: This is image caption
+link: https://fastn.com
+src: https://fastn.com/-/fastn.com/images/github-pages.png
+
+This is addition body content for above image.
+
+-- end: ds.rendered.output
+
+-- end: ds.rendered
+
+-- end: ds.page

@@ -1,0 +1,26 @@
+
+
+
+
+-- common.author-meta patrica: Patrica Ava
+profile: Software Developer
+bio-url:  blog-authors/patrica/
+image: $assets.files.assets.avatar.svg
+company: XYZ Pvt. Ltd.
+
+I’m a web/software developer who loves to build projects and share valuable ps 
+for programmers on this blog.
+
+Currently, building a new language FTD and its package manager FASTN day and night.
+
+
+
+
+
+
+-- ds.page: 
+
+-- ds.author-bio: 
+author: $patrica
+
+-- end: ds.page

@@ -1,0 +1,157 @@
+-- import: fastn/processors as pr
+-- import: fastn-community.github.io/misty-gray/assets
+
+-- boolean show-footer: true
+
+-- pr.toc-item list empty-toc:
+
+-- ftd.image-src site-logo: $assets.files.assets.ipsum-logo.svg
+
+-- string site-name: MedLockbox
+
+-- integer logo-width: 180
+
+-- integer logo-height: 44
+
+-- string site-url: /
+
+-- integer max-width: 1440
+
+-- pr.sitemap-data sitemap:
+$processor$: pr.sitemap
+
+-- pr.sitemap-data footer-toc:
+$processor$: pr.full-sitemap
+
+-- fastn.app-ui apps:
+$processor$: pr.fastn-apps
+
+-- record social-media:
+ftd.image-src src:
+string link: /
+
+-- social-media list social-links:
+
+-- social-media:
+link: /
+src: $assets.files.assets.meta.svg
+
+-- social-media: 
+link: /
+src: $assets.files.assets.figma.svg
+
+-- social-media:
+link: /
+src: $assets.files.assets.google.svg
+
+-- social-media: 
+link: /
+src: $assets.files.assets.ball.svg
+
+-- social-media: 
+link: /
+src: $assets.files.assets.tweak.svg
+
+-- end: social-links
+
+-- social-media list share:
+
+
+
+
+
+-- record tags-list:
+caption title:
+string tag-link:
+
+
+
+
+
+-- record author-meta:
+optional caption title:
+optional string profile:
+optional string company:
+optional string bio-url:
+optional ftd.image-src image:
+optional body body:
+
+
+
+
+
+-- record post-meta:
+caption title:
+string published-on:
+optional ftd.image-src post-image:
+optional body body:
+string post-url:
+tags-list list tags:
+optional author-meta author:
+optional string info:
+social-media list social-list:
+
+
+
+
+
+-- tags-list list topic:
+
+-- tags-list: Design Inspiration
+tag-link: blog/
+
+-- end: topic
+
+
+
+
+
+-- tags-list list tags:
+
+-- tags-list: Programming
+tag-link: blog/
+
+-- tags-list: Data Science
+tag-link: blog/
+
+-- tags-list: Technology
+tag-link: blog/
+
+-- tags-list: Writing
+tag-link: blog/
+
+-- tags-list: AI/ML
+tag-link: blog/
+
+-- tags-list: UI/UX
+tag-link: blog/
+
+-- end: tags
+
+
+
+
+
+-- pr.toc-item list footer-links:
+$processor$: pr.toc
+
+- HEADING: /
+  - Footer Link 01: /
+  - Footer Link 01: /
+  - Footer Link 01: /
+  - Footer Link 01: /
+- HEADING: /
+  - Footer Link 01: /
+  - Footer Link 01: /
+  - Footer Link 01: /
+  - Footer Link 01: /
+- HEADING: /
+  - Footer Link 01: /
+  - Footer Link 01: /
+  - Footer Link 01: /
+  - Footer Link 01: /
+- HEADING: /
+  - Footer Link 01: /
+  - Footer Link 01: /
+  - Footer Link 01: /
+  - Footer Link 01: /

@@ -1,0 +1,71 @@
+-- import: fastn-community.github.io/misty-gray/assets
+
+-- ds.page: Getting Started
+site-logo: NULL
+sidebar: true
+
+-- ds.page.right-sidebar:
+
+-- ds.link-group: Creating fastn web-site using misty-gray
+cta: getting-started/#creating-fastn-web-site-using-misty-gray
+
+-- ds.link-group: How to publish a package?
+cta: getting-started/#how-to-publish-a-package
+
+-- ds.link-group: Whats next?
+cta: getting-started/#what-next
+
+-- end: ds.page.right-sidebar
+
+-- ds.page.body:
+
+You can create your documentation websites using `misty-gray`. `misty-gray` also 
+helps authors, entrepreneurs, corporate groups, and bloggers to create their 
+own fastn web projects.
+
+-- ds.h3: 🎨 Creating fastn web-site using `misty-gray`
+id: creating-fastn-web-site-using-misty-gray
+
+Please, refer [this documentation](https://fastn.com/github-pages/) to
+understand how to create fastn website repository on GitHub.
+
+-- ds.h3: 🤔 How to publish a package?
+id: how-to-publish-a-package
+
+Watch this quick video tutorial to learn how to publish a package.
+
+-- ds.youtube:
+v: tsHB2Vrhb2c
+
+-- ds.markdown:
+
+🛠️ Resources:
+
+- [Fastn Template](https://github.com/fastn-stack/fastn-template) 
+
+-- ds.h3: 🌟 Whats next?
+id: what-next
+
+The `-- page` component comes with an inbuilt navbar, sidebar, and body content area. 
+Start creating new `.ftd` files inside your project and use the `misty-gray` `page` 
+component to write your documentation, blog posts, etc.
+
+✨ [Click here](https://fastn-community.github.io/misty-gray/page/) to know more
+details of `page` component.
+
+✨ [Click here](https://fastn-community.github.io/misty-gray/sitemap/) to learn how
+to generate better `sitemap` for navigation.
+
+✨ [Click here](https://fastn-community.github.io/misty-gray/types/) to know
+more details of inbuit `typography`.
+
+✨ [Click here](https://fastn-community.github.io/misty-gray/markdown/) to know
+about markdown.
+
+✨ [Click here](https://fastn-community.github.io/misty-gray/seo/) to know about
+SEO support.
+
+✨ [Click here](https://fastn-community.github.io/misty-gray/assets/) to know about
+Static Assets.
+
+-- end: ds.page

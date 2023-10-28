@@ -1,0 +1,63 @@
+-- import: fastn-community.github.io/misty-gray 
+export: author-bio,code,compact-text,featured-post,h0,h1,h2,h3,iframe,image,image-first,image-in-between,link,link-group,markdown,not-found-1,not-found-2,output,post,posts,rendered,tip,without-image,youtube, footer,letter, letter-data, letter-bar, letter-category, letter-stack,post-card,toc-title
+
+
+-- ftd.image-src fastn-logo:
+light: https://fastn.com/-/fastn.com/images/fastn.svg
+dark: https://fastn.com/-/fastn.com/images/fastn-dark.svg
+
+
+-- component page:
+children wrapper:
+optional caption title:
+optional body body:
+boolean sidebar: true
+ftd.ui list right-sidebar:
+optional string document-title:
+optional string document-description:
+optional ftd.raw-image-src document-image:
+optional string site-name: $common.site-name
+optional ftd.image-src site-logo: $common.site-logo
+boolean full-width: false
+boolean blog: false
+ftd.ui list hero:
+
+-- misty-gray.page: $page.title
+site-name: $common.site-name
+site-logo: $page.site-logo
+body: $page.body
+show-footer: true
+right-sidebar: $page.right-sidebar
+sidebar: $page.sidebar
+document-title: $page.document-title
+document-description: $page.document-description
+document-image: $page.document-image
+github-url: https://github.com/fastn-community/misty-gray/
+github-icon: true
+full-width: $page.full-width
+blog: $page.blog
+hero: $page.hero
+
+-- misty-gray.page.footer:
+
+-- misty-gray.footer:
+site-logo: $common.site-logo
+site-name: $common.site-name 
+site-url: $common.site-url 
+logo-width: $common.logo-width
+logo-height: $common.logo-height
+footer-links: $common.footer-links
+social-links: $common.social-links
+
+-- end: misty-gray.page.footer
+
+-- ftd.column:
+spacing.fixed.px: 13
+width: fill-container
+children: $page.wrapper
+
+-- end: ftd.column
+
+-- end: misty-gray.page
+
+-- end: page

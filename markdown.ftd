@@ -1,0 +1,120 @@
+
+
+-- ds.page: Markdown Primer
+site-logo: NULL
+sidebar: true
+
+-- ds.page.right-sidebar:
+
+-- ds.link-group: Markdown
+cta: markdown/#markdown
+
+-- end: ds.page.right-sidebar
+
+-- ds.page.body:
+
+`misty-gray` supports markdown. If you want to use it you can use `--
+ds.mardkdown` for inline anchor links etc.
+
+`misty-gray` comes with an inbuilt `-- ds.markdown` component.
+
+-- ds.h3: Markdown
+id: markdown
+
+-- ds.code:
+lang: ftd
+
+\-- ds.markdown:
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+tempor incididunt.
+
+-- ds.rendered: Inline links
+
+-- ds.rendered.input:
+
+\-- ds.markdown:
+
+Lorem ipsum [dolor sit](/docs/markup-support/) amet, consectetur adipiscing
+elit, sed do eiusmod tempor incididunt.
+
+-- ds.rendered.output:
+
+-- ds.markdown:
+
+Lorem ipsum [dolor sit](/docs/markup-support/) amet, consectetur adipiscing
+elit, sed do eiusmod tempor incididunt.
+
+-- end: ds.rendered.output
+
+-- end: ds.rendered
+
+-- ds.rendered: Markdown List
+
+-- ds.rendered.input:
+
+\-- ds.markdown:
+
+**Bullet list:**
+
+- List item 1
+- List item 2
+- List item 3
+  - Sub List item 1
+  - Sub List item 1
+
+**Odered list:**
+
+1. List item 
+2. List item 
+3. List item
+   1. Sub List Item
+   2. Sub List Item
+   3. Sub List Item
+
+-- ds.rendered.output:
+
+-- ds.markdown:
+
+**Bullet list:**
+
+- List item 1
+- List item 2
+- List item 3
+  - Sub List item 1
+  - Sub List item 1
+
+**Odered list:**
+
+1. List item 
+2. List item 
+3. List item
+   1. Sub List Item
+   2. Sub List Item
+   3. Sub List Item
+
+-- end: ds.rendered.output
+
+-- end: ds.rendered
+
+-- ds.rendered: Inline styles
+
+-- ds.rendered.input:
+
+\-- ds.markdown:
+
+**Lorem ipsum** dolor sit amet, *consectetur adipiscing* elit, sed do
+eiusmod tempor incididunt.
+
+-- ds.rendered.output:
+
+-- ds.markdown:
+
+**Lorem ipsum** dolor sit amet, *consectetur adipiscing* elit, sed do eiusmod
+  tempor incididunt.
+
+-- end: ds.rendered.output
+
+-- end: ds.rendered
+
+-- end: ds.page

@@ -1,0 +1,207 @@
+-- import: fastn-community.github.io/misty-gray/blog-authors/patrica
+-- import: fastn-community.github.io/misty-gray/blog-articles/sample-post
+
+; Change below details for your new blog post
+
+-- common.post-meta meta: 10 Hilarious Cartoons That Depict Real-Life Problems of Programmers
+published-on: July 22, 2014 at 10:02 pm
+post-image: $assets.files.assets.post-img.png
+post-url: blog-articles/sample-post/
+author: $patrica.patrica
+tags: $common.topic
+
+Redefined the user acquisition and redesigned the onboarding experience, all within 3 working weeks.
+
+
+
+
+
+-- common.post-meta meta-2: We Transform ideas into digital outcomes.
+published-on: July 22, 2014 at 10:02 pm
+post-image: $assets.files.assets.post-img.png
+post-url: blog-articles/sample-post/
+author: $patrica.patrica
+tags: $common.topic
+
+
+We are an award-winning strategic design company that provides consultancy services and help you create outstanding digital products.
+
+
+
+
+
+-- common.post-meta meta-3: Bringing the world together through live experiences.
+published-on: July 22, 2014 at 10:02 pm
+post-image: $assets.files.assets.blog-hero.png
+post-url: blog-articles/sample-post/
+author: $patrica.patrica
+tags: $common.topic
+
+We are an award-winning strategic design company that provides consultancy services and help you create outstanding digital products.
+
+
+
+-- ds.page:
+blog: true
+
+-- ds.post:
+meta: $sample-post.meta-3
+sidebar: true
+
+-- ds.post.right-sidebar:
+
+-- ds.link-group: API Reference guide
+blog: true
+cta: #api-guide
+
+-- ds.link-group: Test and Live Mode API Keys
+blog: true
+cta: #test-live-mode
+
+-- ds.link-group: Try Fastn APIs
+blog: true
+cta: #try-fastn-apis
+
+-- ds.link-group: Get Started Video
+blog: true
+cta: #get-started-video
+
+-- ds.link-group: Handling errors
+blog: true
+cta: #used-by
+
+-- ds.link-group: Expanding Responses
+blog: true
+cta: #used-by
+
+-- ds.link-group: Idempotent Requests
+blog: true
+cta: #used-by
+
+-- ds.link-group: Metadata
+blog: true
+cta: #used-by
+
+-- ds.link-group: Pagination
+blog: true
+cta: #used-by
+
+-- end: ds.post.right-sidebar
+
+-- tf.markdown:
+id: api-guide
+
+I’m an expert on how technology hijacks our psychological vulnerabilities. That’s why I spent the last
+three years as a Design Ethicist at Google caring about how to design things in a way that defends a
+billion people’s minds from getting hijacked.
+When using technology, we often focus optimistically on all the things it does for us. But I want to show
+you where it might do the opposite.
+
+Where does technology exploit our minds’ weaknesses?
+
+I learned to think this way when I was a magician. Magicians start by looking for blind spots, edges, vulnerabilities and limits of people’s perception, so they can influence what people do without them even realizing it. Once you know how to push people’s buttons, you can play them like a piano.
+
+-- ds.image: Bringing the world together through live experiences.
+src: $assets.files.assets.blog-detail-1.png
+blog: true
+
+-- tf.markdown:
+id: test-live-mode
+
+And this is exactly what product designers do to your mind. They play your psychological vulnerabilities (consciously and unconsciously) against you in the race to grab your attention.Western Culture is built around ideals of individual choice and freedom. Millions of us fiercely defend our right to make “free” choices, while we ignore how those choices are manipulated upstream by menus we didn’t choose in the first place.
+
+- Unordered lists are displayed with a preceding bullet point.
+
+- Lists can be nested as deeply as needed, and they may alternate between ordered and unordered.
+
+- Lists should align with the font-size, font-weight, and line-height of paragraphs, but are styled with bullets or numbers.
+
+- Lists can have similar children elements as paragraphs to provide emphasis on a certain word or phrase.
+
+- You can switch between an unordered list and ordered list by changing the component variant in the Design panel.
+
+- You can remove a list item from the default component by deleting it in the Layers panel.
+
+-- h3: Bringing the world together through live experiences.
+id: try-fastn-apis
+
+I learned to think this way when I was a magician. Magicians start by looking for blind spots, edges, vulnerabilities and limits of people’s perception, so they can influence what people do without them even realizing it. Once you know how to push people’s buttons, you can play them like a piano.
+
+-- ds.image:
+src: $assets.files.assets.blog-detail-2.png
+
+-- ds.image: Bringing the world together through live experiences.
+src: $assets.files.assets.blog-detail-3.png
+right-img: $assets.files.assets.blog-detail-4.png
+width.fixed.px: 472
+height.fixed.px: 320
+blog: true
+
+-- tf.markdown:
+id: get-started-video
+
+And this is exactly what product designers do to your mind. They play your psychological vulnerabilities (consciously and unconsciously) against you in the race to grab your attention.Western Culture is built around ideals of individual choice and freedom. Millions of us fiercely defend our right to make “free” choices, while we ignore how those choices are manipulated upstream by menus we didn’t choose in the first place.
+
+- Unordered lists are displayed with a preceding bullet point.
+
+- Lists can be nested as deeply as needed, and they may alternate between ordered and unordered.
+
+- Lists should align with the font-size, font-weight, and line-height of paragraphs, but are styled with bullets or numbers.
+
+- Lists can have similar children elements as paragraphs to provide emphasis on a certain word or phrase.
+
+- You can switch between an unordered list and ordered list by changing the component variant in the Design panel.
+
+- You can remove a list item from the default component by deleting it in the Layers panel.
+
+I learned to think this way when I was a magician. Magicians start by looking for blind spots, edges, vulnerabilities and limits of people’s perception, so they can influence what people do without them even realizing it. Once you know how to push people’s buttons, you can play them like a piano.
+
+-- ds.image: Bringing the world together through live experiences.
+src: $assets.files.assets.blog-detail-3.png
+blog: true
+
+-- h3: Bringing the world together through live experiences.
+id: handling-errors
+
+I’m an expert on how technology hijacks our psychological vulnerabilities. That’s why I spent the last three years as a Design Ethicist at Google caring about how to design things in a way that defends a billion people’s minds from getting hijacked.
+When using technology, we often focus optimistically on all the things it does for us. But I want to show you where it might do the opposite.
+
+-- ds.image: Bringing the world together through live experiences.
+src: $assets.files.assets.blog-detail-4.png
+blog: true
+
+-- tf.markdown: 
+id: expanding-responses
+
+And this is exactly what product designers do to your mind. They play your psychological vulnerabilities (consciously and unconsciously) against you in the race to grab your attention.Western Culture is built around ideals of individual choice and freedom. Millions of us fiercely defend our right to make “free” choices, while we ignore how those choices are manipulated upstream by menus we didn’t choose in the first place.
+
+- Unordered lists are displayed with a preceding bullet point.
+
+- Lists can be nested as deeply as needed, and they may alternate between ordered and unordered.
+
+- Lists should align with the font-size, font-weight, and line-height of paragraphs, but are styled with bullets or numbers.
+
+- Lists can have similar children elements as paragraphs to provide emphasis on a certain word or phrase.
+
+- You can switch between an unordered list and ordered list by changing the component variant in the Design panel.
+
+- You can remove a list item from the default component by deleting it in the Layers panel.
+
+-- h3: Bringing the world together through live experiences.
+id: idempotent-requests
+
+I’m an expert on how technology hijacks our psychological vulnerabilities. That’s why I spent the last three years as a Design Ethicist at Google caring about how to design things in a way that defends a billion people’s minds from getting hijacked.
+When using technology, we often focus optimistically on all the things it does for us. But I want to show you where it might do the opposite.
+
+-- end: ds.post
+
+-- ds.footer:
+site-logo: $common.site-logo
+site-url: $common.site-url 
+logo-width: $common.logo-width
+logo-height: $common.logo-height
+footer-links: $common.footer-links
+social-links: $common.social-links
+
+
+-- end: ds.page
