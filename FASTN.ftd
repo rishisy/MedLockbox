@@ -48,5 +48,5 @@ exposing: h0, h1, h2, h3, markdown
 
 # Reports: /blog
 # Landing: /landing
-# Login: /login
+# Upload: 
 ## Sample Post: /blog-articles/sample-post/

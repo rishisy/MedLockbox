@@ -174,8 +174,8 @@ right-sidebar: $page.right-sidebar
 github-icon: $page.github-icon
 github-url: $page.github-url
 full-width: $page.full-width
-blog: $page.blog
-hero: $page.hero
+blog: 
+hero: 
 
 -- end: ftd.desktop
 

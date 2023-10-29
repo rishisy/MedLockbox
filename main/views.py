@@ -29,7 +29,7 @@ def user_login(request):
             user = authenticate(request, username=username, password=password)
             if user:
                 login(request, user)    
-                return redirect('home')
+                return redirect("http://127.0.0.1:8006/index")
     else:
         form = LoginForm()
     return render(request, 'main/login.html', {'form': form})
@@ -86,7 +86,7 @@ class MedicalRecordListByAadhaar(generics.ListAPIView):
                 'type_of_record': most_recent_record.type_of_record,
                 'medical_notes': most_recent_record.medical_notes,
                 'aadhaar_number': most_recent_record.aadhaar_number,
-                
+
             }
             return Response(response, status=status.HTTP_200_OK)
         else:
