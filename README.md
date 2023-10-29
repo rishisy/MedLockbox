@@ -23,6 +23,16 @@ MedLockBox is a secure platform designed to store and manage sensitive medical r
 3. **Upload Data**: Start uploading your medical records and wearable device data to your secure MedLockBox account.
 
 4. **Access Your Data**: View and manage your health data from anywhere, at any time.
+## How to run
+
+
+1. Pip3 install django and dependencies
+
+2. pip3 install fastn
+
+3. python3 manage.py runserver
+
+4. fastn serve --port 8006
 
 ## Security
 
