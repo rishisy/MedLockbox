@@ -60,10 +60,34 @@ from rest_framework import generics
 from rest_framework.response import Response
 from .models import MedicalRecord
 from .serializers import MedicalRecordSerializer
+from rest_framework.response import Response
+from rest_framework import status
+
+from rest_framework.response import Response
+from rest_framework import status
 
 class MedicalRecordListByAadhaar(generics.ListAPIView):
     serializer_class = MedicalRecordSerializer
 
     def get_queryset(self):
         aadhaar_number = self.kwargs['aadhaar_number']
-        return MedicalRecord.objects.filter(aadhaar_number=aadhaar_number)
+
+        # Find the most recent medical record for the specified Aadhaar number
+        most_recent_record = MedicalRecord.objects.filter(aadhaar_number=aadhaar_number).order_by('-date_of_visit').first()
+
+        return most_recent_record
+
+    def list(self, request, *args, **kwargs):
+        most_recent_record = self.get_queryset()
+
+        if most_recent_record:
+            response = { 
+                'date_of_visit': most_recent_record.date_of_visit,
+                'type_of_record': most_recent_record.type_of_record,
+                'medical_notes': most_recent_record.medical_notes,
+                'aadhaar_number': most_recent_record.aadhaar_number,
+                
+            }
+            return Response(response, status=status.HTTP_200_OK)
+        else:
+            return Response({'detail': 'No records found'}, status=status.HTTP_404_NOT_FOUND)

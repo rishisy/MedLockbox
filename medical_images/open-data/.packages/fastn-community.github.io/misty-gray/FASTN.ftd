@@ -1,40 +1,46 @@
 -- import: fastn
 
--- fastn.package: fastn-community.github.io/midnight-rush
-favicon: https://fastn-community.github.io/midnight-rush/-/fastn-community.github.io/midnight-rush/favicon.svg
+-- fastn.package: fastn-community.github.io/misty-gray
+favicon: https://fastn-community.github.io/misty-gray/-/fastn-community.github.io/misty-gray/favicon.svg
 
--- fastn.dependency: fastn-community.github.io/midnight-rush-typography
--- fastn.dependency: fastn-community.github.io/midnight-rush-cs 
--- fastn.dependency: fastn-community.github.io/banner
--- fastn.dependency: fastn-community.github.io/opensans-font 
+-- fastn.dependency: fastn-community.github.io/misty-gray-cs as cs
+-- fastn.dependency: fastn-community.github.io/misty-gray-typography as typo
 -- fastn.dependency: fastn-community.github.io/dark-mode-switcher
 -- fastn.dependency: fastn-community.github.io/code-block
--- fastn.dependency: fastn-community.github.io/typography
-
+-- fastn.dependency: fastn-community.github.io/rubik-font
 -- fastn.dependency: fastn-community.github.io/bling
+-- fastn.dependency: fastn-community.github.io/source-code-pro-font
+
 -- fastn.auto-import: fastn-community.github.io/code-block as cb
+exposing: code, rendered
 
--- fastn.auto-import: fastn-community.github.io/typography as tf
+-- fastn.auto-import: fastn-community.github.io/misty-gray/typography as tf
+exposing: h0, h1, h2, h3, markdown
 
-
--- fastn.auto-import: fastn-community.github.io/midnight-rush/assets
--- fastn.auto-import: fastn-community.github.io/midnight-rush/common
-
--- fastn.auto-import: fastn-community.github.io/midnight-rush/FASTN/ds
+-- fastn.auto-import: fastn-community.github.io/misty-gray/assets
+-- fastn.auto-import: fastn-community.github.io/misty-gray/common
+-- fastn.auto-import: fastn-community.github.io/misty-gray/FASTN/ds
+-- fastn.auto-import: cs
+-- fastn.auto-import: typo
 
 -- fastn.sitemap:
 
 # Home: /index.html
 
 - Overview: index.html
-- How to use: /how-to/
 - Getting Started: /getting-started/
-- Configuring your site: /domain-setup/
 - Adding Favicon: /favicon/
 - Adding Logo & Sitename: /logo/
 - Changing Color Scheme: /cs/
 - Changing Typography: /types/
-- Adding Banner: /banner/
+- Creating A Page: /page/
+- Adding a image: /image/
+- Adding Assets: /assets/
+- Markdown Primer: /markdown/
+- Understanding Sitemap: /sitemap/
+- Adding Right Sidebar: /right-sidebar/
+- Adding Footer: /footer/
+- SEO: /seo/
 - Components: /components/
   - author-bio: /components/author-bio/
   skip: true
@@ -79,22 +85,9 @@ favicon: https://fastn-community.github.io/midnight-rush/-/fastn-community.githu
   - youtube: /components/youtube/
   skip: true
 
-- Markdown Primer: /markdown/
-- Understanding Sitemap: /sitemap/
-- Adding Right Sidebar: /right-sidebar/
-- Updating Footer: /footer/
-- SEO: /seo/
-- Blog: /blog/
-  - Post List: /post-list/
-  - Sample Post: /blog-articles/sample-post/
-  - Sample Author Bio: /blog-authors/patrica/
 
-- Contribute: /contribute/
+# Blog: /blog
 
-# Blog: /blog/
+# Landing: /landing
 
 ## Sample Post: /blog-articles/sample-post/
-
-# Landing: /landing/
-# Pricing: /pricing/
-# Our Team: /team/

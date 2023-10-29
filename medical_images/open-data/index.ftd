@@ -7,8 +7,6 @@
 -- import: blood-compass/assets
 -- import: fifthtry.github.io/button
 -- import: fastn/processors as pr
--- import: fastn-community.github.io/midnight-rush as doc-page
-
 
 -- record result:
 string current_date:
@@ -21,14 +19,34 @@ integer pending_requests: 0
 $processor$: pr.http
 url: http://localhost:8000/public/v1/
 
--- doc-page.page: Welcome to your fastn powered website.
-document-title: fastn midnight-rush Template. Build Your Own Website with Ease
-document-description: Simple, easy-to-use midnight-rush template to build your own documentation website, personal website, or blog. Change colours and typography effortlessly.
-document-image: https://fastn-community.github.io/midnight-rush/-/fastn-community.github.io/midnight-rush/static/midnight-rush-og-image.jpg
-site-name: NULL
-github-url: https://github.com/fastn-community/midnight-rush/
+-- ds.page: MedLockBox
+colors: $midnight-storm-cs.main
+document-title: Blood Compass Open Data
+document-description: Embrace worry-free healthcare journeys—empower your health by going paperless, where your medical records await online, making every doctor's visit seamless.
+site-logo: $assets.files.images.blood-compass.png
+github-url: https://github.com/sayakongit/hackodisha-blood-compass
 github-icon: true
-color-scheme: fastn-community.github.io/midnight-typography
-typography: fastn-community.github.io/midnight-rush-cs
+site-name: NULL
+show-footer: false
+site-url: /
+logo-width: 200
+logo-height: 80
 
-Some body here is coming from `$page.body`
+
+Blood Compass is a groundbreaking platform designed to revolutionize blood donation and recipient mapping. Our mission is simple yet profoundly impactful- connecting donors with individuals urgently in need of blood.
+
+With Blood Compass, finding a blood donor or recipient is easier and more efficient than ever before. Our user-friendly interface allows donors to register and specify their blood type, availability, and location. Simultaneously, recipients can search for donors based on their specific requirements and reach out in times of need.
+
+
+
+-- button.button: Join us
+role: tertiary
+large: true
+link: http://localhost:5173/
+
+-- ftd.image:
+src: $assets.files.images.banner.png
+width: fill-container
+
+
+-- end: ds.page

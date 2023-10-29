@@ -7,8 +7,6 @@
 -- fastn.dependency: fifthtry.github.io/button
 -- fastn.dependency: fastn-community.github.io/banner
 -- fastn.dependency: fastn-community.github.io/midnight-storm-cs
--- fastn.dependency: fastn-community.github.io/midnight-rush
--- fastn.auto-import: fastn-community.github.io/midnight-rush as doc-page
 
 
 -- fastn.sitemap:

@@ -9,15 +9,17 @@
 -- import: fastn/processors as pr
 
 -- record result:
-string current_date:
-integer donor_count: 0
-integer users_count: 0
-integer fulfilled_requests: 0
-integer pending_requests: 0
+string date_of_visit: 
+string type_of_record: 
+string aadhaar_number:
+string medical_notes :
+
+
+
 
 -- result r:
 $processor$: pr.http
-url: http://localhost:8000/public/v1/
+url: http://localhost:8000/api/medical-records/123123123123/
 
 -- ds.page:
 colors: $midnight-storm-cs.main
@@ -48,10 +50,11 @@ width: fill-container
 height: fill-container
 
 
--- ftd.text: Data collected till
+
+-- ftd.text: Report Dated
 role: $inherited.types.heading-tiny
 
--- ftd.text: $r.current_date
+-- ftd.text: $r.medical_notes
 color: #52BB6E
 role: $inherited.types.heading-hero
 
@@ -69,7 +72,7 @@ height: fill-container
 -- ftd.text: Total users
 role: $inherited.types.heading-tiny
 
--- ftd.integer: $r.users_count
+-- ftd.integer: 44
 color: #FEB93D
 role: $inherited.types.heading-hero
 
@@ -97,7 +100,7 @@ height: fill-container
 -- ftd.text: Completed Donations
 role: $inherited.types.heading-tiny
 
--- ftd.integer: $r.fulfilled_requests
+-- ftd.integer: 55
 color: #52BB6E
 role: $inherited.types.heading-hero
 
@@ -115,7 +118,7 @@ height: fill-container
 -- ftd.text: Pending Requests
 role: $inherited.types.heading-tiny
 
--- ftd.integer: $r.pending_requests
+-- ftd.integer:55
 color: #FEB93D
 role: $inherited.types.heading-hero
 
@@ -130,10 +133,11 @@ width: fill-container
 height: fill-container
 
 
+
 -- ftd.text: Active Donors
 role: $inherited.types.heading-tiny
 
--- ftd.integer: $r.donor_count
+-- ftd.integer: 9
 color: #2095FF
 role: $inherited.types.heading-hero
 
