@@ -12,9 +12,8 @@ export: code, rendered
 
 
 
-
--- page: Overview
-document-description: Simple, easy-to-use misty-gray template to build your own documentation website, personal website, or blog. Change colours and typography effortlessly.
+-- page: About us 👋🏻
+document-description: Welcome to MedLockbox, where our driving force is to redefine the landscape of healthcare by providing an innovative solution for managing medical records. Our story begins with a passion for simplifying healthcare, aiming to empower individuals by offering a secure, user-friendly, and easily accessible platform for storing and retrieving their complete medical histories.
 document-title: fastn misty-gray Template. Build Your Own Website with Ease
 document-image: https://fastn-community.github.io/misty-gray/-/fastn-community.github.io/misty-gray/assets/misty-gray-og-image.jpg
 site-name: $common.site-name
@@ -25,10 +24,10 @@ sidebar: true
 
 -- page.right-sidebar:
 
--- link-group: Fast Track
+-- link-group: Our Mission
 cta: #fast-track
 
--- link-group: Whats next?
+-- link-group: Vision
 cta: #whats-next
 
 -- link-group: Want to learn more?
@@ -54,41 +53,35 @@ social-links: $common.social-links
 
 -- page.body:
 
-`misty-gray` will help you create a beautiful documentation site in no time.
-
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
+ At MedLockbox ,  our driving force is to redefine the landscape of healthcare by providing an innovative solution for managing medical records. Our story begins with a passion for simplifying healthcare, aiming to empower individuals by offering a secure, user-friendly, and easily accessible platform for storing and retrieving their complete medical histories.
 
 
--- h3: 🚀 Fast Track 
+-- h3: 🌟 Our Mission
 id: fast-track
 
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
 
- [Click here](https://github.com/fastn-stack/fastn-template/) to use `misty-gray`
-for your fastn project.
+- Simplify healthcare: Streamline and digitize medical records for effortless access.
+- Empower individuals: Provide control over personal health information securely.
+- Enhance healthcare delivery: Support efficient communication among patients and healthcare providers.
 
--- h3: 🌟 Whats next?
+-- h3: 👀 Vision
 id: whats-next
 
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/misty-gray/page/).
+- Simplify healthcare through a secure, paperless platform.
+- Empower individuals to manage, access, and control their health data effortlessly.
+- Establish a future where healthcare management is stress-free and proactive.
+- Ensure robust security measures for confidentiality and reliability.
 
--- h3: 👀 Want to learn more?
+-- h3: 🔖 Want to learn more?
 id: want-to-learn-more
 
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+We're not just a platform; we're a team of passionate individuals who strive to make healthcare more accessible and convenient. Our commitment is reflected in the design and functionality of our platform, built with a user-centric approach and a strong emphasis on privacy and security.
 
--- h3: 🎯 Used by?
+
+-- h3: 🎯 Join us
 id: used-by
 
-Our all documentation sites uses this `misty-gray` theme.
-
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
-
+We invite you to join us on this mission. Whether you’re a developer, designer, advocate, or simply someone who cares, your involvement can make a significant difference. Together, we can bridge lives, save lives, and create a brighter, healthier future.
 -- end: page
 
 

@@ -1,0 +1,164 @@
+-- import: fastn-community.github.io/misty-gray as ds
+-- import: fastn-community.github.io/button
+
+
+-- ds.page:
+
+
+-- ftd.container:
+
+-- ftd.column:
+width.fixed.px: 500
+border-color: $inherited.colors.border
+border-width.px: 2
+
+
+
+
+-- ftd.row:
+spacing: space-between
+width: fill-container
+
+-- ftd.text : Username
+margin.px: 10
+role: $inherited.types.heading-small
+color: $inherited.colors.cta-primary.text
+
+
+-- ftd.text-input:
+placeholder: Type any text ...
+padding-horizontal.px: 4
+padding-vertical.px: 4
+width.fixed.px: 200
+border-width.px: 1
+border-color: $inherited.colors.background.step-2
+border-radius.px: 6
+margin.px: 10
+
+-- end: ftd.row
+
+
+
+
+-- ftd.row: 
+spacing: space-between
+width: fill-container
+
+-- ftd.text : Enter your Email
+margin.px: 10
+role: $inherited.types.heading-small
+color: $inherited.colors.cta-primary.text
+
+-- ftd.text-input:
+value: Hello@abc.com
+type: email
+padding-horizontal.px: 4
+padding-vertical.px: 4
+width.fixed.px: 200
+border-width.px: 1
+border-color: $inherited.colors.background.step-2
+border-radius.px: 6
+margin.px: 10
+
+-- end: ftd.row
+
+
+
+-- ftd.row: 
+spacing: space-between
+width: fill-container
+
+-- ftd.text : Phone Number
+margin.px: 10
+role: $inherited.types.heading-small
+color: $inherited.colors.cta-primary.text
+
+-- ftd.text-input:
+placeholder: Max 10 characters
+type: text
+max-length: 10
+padding-horizontal.px: 4
+padding-vertical.px: 4
+width.fixed.px: 200
+border-width.px: 1
+border-color: $inherited.colors.background.step-2
+border-radius.px: 6
+margin.px: 10
+
+-- end: ftd.row
+
+
+
+
+-- ftd.row: 
+spacing: space-between
+width: fill-container
+
+-- ftd.text : D.O.B
+margin.px: 10
+role: $inherited.types.heading-small
+color: $inherited.colors.cta-primary.text
+
+-- ftd.text-input:
+placeholder: Max 10 characters
+type: date
+max-length: 10
+padding-horizontal.px: 4
+padding-vertical.px: 4
+width.fixed.px: 200
+border-width.px: 1
+border-color: $inherited.colors.background.step-2
+border-radius.px: 6
+margin.px: 10
+
+-- end: ftd.row
+
+
+
+-- ftd.row: 
+spacing: space-between
+width: fill-container
+
+-- ftd.text : Password
+margin.px: 10
+role: $inherited.types.heading-small
+color: $inherited.colors.cta-primary.text
+
+-- ftd.text-input:
+value: Hello
+type: password
+max-length: 10
+padding-horizontal.px: 4
+padding-vertical.px: 4
+width.fixed.px: 200
+border-width.px: 1
+border-color: $inherited.colors.background.step-2
+border-radius.px: 6
+margin.px: 10
+
+-- end: ftd.row
+
+-- ftd.row:
+margin.px: 15
+margin-left.px: 190
+
+
+-- button.button: REGISTER
+role: primary
+large: true
+link: index.html
+
+-- end: ftd.row
+
+
+
+-- end: ftd.column
+
+-- end: ftd.container
+
+
+
+
+
+
+-- end: ds.page

@@ -1,7 +1,7 @@
 -- import: fastn
 
 
-
+-- fastn.package: fastn-community.github.io/color-pop
 
 
 ;;login
@@ -9,7 +9,7 @@
 -- fastn.dependency: fastnui.trizwit.com
 -- fastn.package: fastn-community.github.io/misty-gray
 favicon: https://fastn-community.github.io/misty-gray/-/fastn-community.github.io/misty-gray/favicon.svg
-
+-- fastn.dependency: fastn-community.github.io/button
 -- fastn.dependency: fastn-community.github.io/misty-gray-cs as cs
 -- fastn.dependency: fastn-community.github.io/misty-gray-typography as typo
 -- fastn.dependency: fastn-community.github.io/dark-mode-switcher
@@ -17,6 +17,9 @@ favicon: https://fastn-community.github.io/misty-gray/-/fastn-community.github.i
 -- fastn.dependency: fastn-community.github.io/rubik-font
 -- fastn.dependency: fastn-community.github.io/bling
 -- fastn.dependency: fastn-community.github.io/source-code-pro-font
+-- fastn.auto-import: fastn-community.github.io/color-pop/FASTN/ds
+-- fastn.auto-import: fastn-community.github.io/color-pop/assets
+-- fastn.auto-import: fastn-community.github.io/color-pop/common
 
 -- fastn.auto-import: fastn-community.github.io/code-block as cb
 exposing: code, rendered
@@ -35,67 +38,15 @@ exposing: h0, h1, h2, h3, markdown
 
 # Home: /index.html
 
-- Overview: index.html
-- Getting Started: /getting-started/
-- Adding Favicon: /favicon/
-- Adding Logo & Sitename: /logo/
-- Changing Color Scheme: /cs/
-- Changing Typography: /types/
-- Creating A Page: /page/
-- Adding a image: /image/
-- Adding Assets: /assets/
-- Markdown Primer: /markdown/
-- Understanding Sitemap: /sitemap/
-- Adding Right Sidebar: /right-sidebar/
-- Adding Footer: /footer/
-- SEO: /seo/
-- Components: /components/
-  - author-bio: /components/author-bio/
-  skip: true
-  - code: /components/code/
-  skip: true
-  - compact-text: /components/compact-text/
-  skip: true
-  - featured-post: /components/featured-post/
-  skip: true
-  - h0, h1, h2, h3: /components/headers/
-  skip: true
-  - iframe: /components/iframe/
-  skip: true
-  - image: /components/image/
-  skip: true
-  - image-first: /components/image-first/
-  skip: true
-  - image-in-between: /components/image-in-between/
-  skip: true
-  - link & link-group: /components/link/
-  skip: true
-  - markdown: /components/markdown/
-  skip: true
-  - not-found-1: /components/404-1/
-  skip: true
-  - not-found-2: /components/404-2/
-  skip: true
-  - output: /components/output/
-  skip: true
-  - page: /components/page/
-  skip: true
-  - post: /components/post/
-  skip: true
-  - posts: /components/posts/
-  skip: true
-  - rendered: /components/rendered/
-  skip: true
-  - tip: /components/tip/
-  skip: true
-  - without-image: /components/without-image/
-  skip: true
-  - youtube: /components/youtube/
-  skip: true
+- Setup Guide 🖥️: index.html
+- Backend 🐍: /index.html
+- Frontend ⚛️: /index.html
+- Fastn ⚡: /index.html
+
+
 
 
 # Reports: /blog
-
 # Landing: /landing
 # Login: /login
 ## Sample Post: /blog-articles/sample-post/
