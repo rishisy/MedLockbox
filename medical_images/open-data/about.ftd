@@ -1,0 +1,63 @@
+-- import: fastn-community.github.io/footer
+-- import: fastn-community.github.io/doc-site/common
+-- import: fastn-community.github.io/roboto-typography as typo
+-- import: fastn-community.github.io/doc-site as ds
+-- import: fastn-community.github.io/midnight-storm-cs
+-- import: fastn-community.github.io/banner
+-- import: blood-compass/assets
+-- import: fifthtry.github.io/button
+
+-- ds.page:
+colors: $midnight-storm-cs.main
+document-title: Blood Compass Open Data
+document-description: Opening our blood donor and receiver data to the public promotes transparency, trust, and community involvement. It empowers users to access real-time information, make informed decisions swiftly, and actively participate in saving lives. Public data fosters accountability, strengthens community bonds, and advances our mission.
+site-logo: $assets.files.images.blood-compass.png
+github-url: https://github.com/sayakongit/hackodisha-blood-compass
+github-icon: true
+site-name: NULL
+show-footer: false
+site-url: /
+logo-width: 200
+logo-height: 80
+sidebar: true
+
+-- ds.page.right-sidebar:
+
+-- ds.h3: Meet the authors😎
+
+- [Sayak Saha](https://www.linkedin.com/in/sayaksaha10/)
+- [Suchetan Chanda](https://www.linkedin.com/in/suchetanchanda/)
+
+-- ds.compact-text: Contribute🤝
+
+We welcome you to join our [Quine](https://quine.sh/repo/sayakongit-hackodisha-blood-compass-689227652) community today.
+
+Our product, Blood Compass, connects donors with recipients. Join Quine to enhance it. Developers, designers, advocates, and ideas welcome. Together, let's save lives!
+
+-- end: ds.page.right-sidebar
+
+-- ds.h1: About Us👋
+
+At Blood Compass, our mission is crystal clear - to connect the dots and save lives. We are dedicated to making a positive impact on the world by revolutionizing the way blood donors and recipients find each other, especially during critical times.
+
+-- ds.h3: The Challenge
+
+The COVID-19 pandemic unveiled significant inefficiencies in blood donation and distribution. Traditional methods, such as using WhatsApp to coordinate blood donations, proved inadequate. Urgent needs for blood often went unanswered, highlighting the need for an innovative and efficient solution.
+
+-- ds.h3: Our Solution
+
+Blood Compass emerged as a response to this challenge. We envisioned a platform where technology serves as the bridge between donors and recipients. Our app streamlines the blood donation process, making it easier, faster, and more reliable. We're committed to ensuring that the life-saving gift of blood reaches those who need it, when they need it the most.
+
+-- ds.h3: The Impact
+
+Our goal is to save lives. By addressing the inefficiencies in blood donation coordination and leveraging technology, we aim to provide a consistent and dependable blood supply. Our user-friendly interface, real-time matching, and verified donor network contribute to a safer and more efficient blood donation process, especially during emergencies.
+
+-- ds.h3: Our Vision
+
+Blood Compass represents innovation driven by necessity. We're not just solving immediate challenges; we're building a foundation for a better, more efficient, and reliable blood donation ecosystem. Our vision is a world where every drop of blood counts, where no life is lost due to a lack of access to this vital resource.
+
+-- ds.h3: Join Us
+
+We invite you to join us on this mission. Whether you're a developer, designer, advocate, or simply someone who cares, your involvement can make a significant difference. Together, we can bridge lives, save lives, and create a brighter, healthier future. Welcome to Blood Compass.
+
+-- end: ds.page

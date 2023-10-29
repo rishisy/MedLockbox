@@ -1,0 +1,31 @@
+-- import: fastn
+
+-- fastn.package: blood-compass
+
+-- fastn.dependency: fastn-community.github.io/doc-site
+-- fastn.auto-import: fastn-community.github.io/doc-site/FASTN/ds
+-- fastn.dependency: fifthtry.github.io/button
+-- fastn.dependency: fastn-community.github.io/banner
+-- fastn.dependency: fastn-community.github.io/midnight-storm-cs
+-- fastn.dependency: fastn-community.github.io/midnight-rush
+-- fastn.auto-import: fastn-community.github.io/midnight-rush as doc-page
+
+
+-- fastn.sitemap:
+
+# Home: /
+# About us: /about
+
+- Docs📃: /
+- Setup Guide💻: /
+  - 1. Backend🐍: /
+  - 2. Frontend⚛️: /
+  - 3. Fastn⚡: /
+
+# Open: /open
+## Today: /open
+## All time: /open
+
+# Login
+url: http://localhost:5173/login
+
