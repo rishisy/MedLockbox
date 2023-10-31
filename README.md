@@ -16,7 +16,7 @@ MedLockBox is a secure platform designed to store and manage sensitive medical r
 
 ## Getting Started
 
-1. **Signup**: Create an account on [MedLockBox](https://www.medlockbox.com).
+1. **Signup**: Create an account on [MedLockBox](https://localhost:8000).
 
 2. **Login**: Sign in using your credentials.
 
@@ -40,8 +40,13 @@ At MedLockBox, the security of your data is our top priority. We use the latest 
 
 ## Support
 
-If you have any questions or need assistance, please contact our support team at [support@medlockbox.com](mailto:support@medlockbox.com).
+If you have any questions or need assistance, please contact our support team at [rishiinspiration@gmail.com](mailto:@rishiinspiration@gmail.com).
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Contributers
+
+1. Rimjhim Jain [Github](www.github.com/rimjhimjain)
+2. Rishi Singh Yadav [Github](www.github.com/rishisy)
