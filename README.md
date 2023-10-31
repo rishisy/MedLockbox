@@ -48,5 +48,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contributers
 
-1. Rimjhim Jain [Github](www.github.com/rimjhimjain)
-2. Rishi Singh Yadav [Github](www.github.com/rishisy)
+1. Rimjhim Jain [Github](https://www.github.com/rimjhimjain)
+2. Rishi Singh Yadav [Github](https://www.github.com/rishisy)
